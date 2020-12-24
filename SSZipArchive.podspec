@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SSZipArchive'
-  s.version      = '2.2.2'
+  s.version      = '2.2.3'
   s.summary      = 'Utility class for zipping and unzipping files on iOS, tvOS, watchOS, and macOS.'
   s.description  = 'SSZipArchive is a simple utility class for zipping and unzipping files on iOS, tvOS, watchOS, and macOS. It supports AES and PKWARE encryption.'
   s.homepage     = 'https://github.com/ZipArchive/ZipArchive'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/ZipArchive/ZipArchive.git', :tag => "v#{s.version}" }
   s.ios.deployment_target = '9.0'
   s.tvos.deployment_target = '9.0'
-  s.osx.deployment_target = '10.8'
+  s.osx.deployment_target = '10.9'
   s.watchos.deployment_target = '2.0'
   s.source_files = 'SSZipArchive/*.{m,h}', 'SSZipArchive/include/*.{m,h}', 'SSZipArchive/minizip/*.{c,h}'
   s.public_header_files = 'SSZipArchive/include/*.h'
